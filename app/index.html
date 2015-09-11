@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="colortasticApp">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Colortastic!</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="bower_components/html5-boilerplate/dist/css/normalize.css">
+        <link rel="stylesheet" href="bower_components/html5-boilerplate/dist/css/main.css">
+        <link rel="stylesheet" href="app.css">
+        <script src="bower_components/html5-boilerplate/dist/js/vendor/modernizr-2.8.3.min.js"></script>
+        <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.css">
+        <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap-theme.css">
+    </head>
+
+    <body>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="jumbotron">
+                        <h1 class="text-center">
+                            <span class="app-title">C</span>
+                            <span class="app-title">o</span>
+                            <span class="app-title">l</span>
+                            <span class="app-title">o</span>
+                            <span class="app-title">r</span>
+                            <span class="app-title">T</span>
+                            <span class="app-title">a</span>
+                            <span class="app-title">s</span>
+                            <span class="app-title">T</span>
+                            <span class="app-title">i</span>
+                            <span class="app-title">c</span>
+                            <span class="app-title">!</span>
+                        </h1>
+                        <div id="solution-links" class="text-center">
+                            <a ui-sref="home">First Solution</a> |
+                            <a ui-sref="alt">Alternate Solution #1</a> |
+                            <a ui-sref="alt2">Alternate Solution #2</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div ui-view></div>
+            </div>
+        </div>
+
+        <!-- In production use:
+        <script src="//ajax.googleapis.com/ajax/libs/angularjs/x.x.x/angular.min.js"></script>
+        -->
+        <script src="bower_components/angular/angular.js"></script>
+        <script src="bower_components/angular-ui-router/release/angular-ui-router.js"></script>
+        <script src="app.js"></script>
+        <script src="home/controllers.js"></script>
+        <script src="alt/controllers.js"></script>
+        <script src="alt/directives.js"></script>
+        <script src="alt2/controllers.js"></script>
+        <script src="alt2/directives.js"></script>
+    </body>
+</html>
