@@ -20,6 +20,9 @@
   "dependencies": {
     "express": "^4.13.3"
   },
+  "scripts": {
+    "postinstall": "bower install"
+  },
   "engines": {
     "node": "0.10.x"
   }
