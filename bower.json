@@ -1,8 +1,8 @@
 {
   "name": "colortastic",
   "description": "Fun with colors",
-  "version": "0.0.0",
-  "homepage": "https://github.com/angular/angular-seed",
+  "version": "1.0.0",
+  "homepage": "https://github.com/nika-m/colortastic",
   "license": "MIT",
   "private": true,
   "dependencies": {
