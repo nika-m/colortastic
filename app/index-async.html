@@ -33,18 +33,18 @@
       'bower_components/angular/angular.js',
       'bower_components/angular-ui-router/release/angular-ui-router.js',
       'app.js',
-      'home/controllers.js',
-      'alt/controllers.js',
-      'alt/directives.js',
-      'alt2/controllers.js',
-      'alt2/directives.js',
+      'bower_components/underscore/underscore.js',
+      'bower_components/angular-underscore-module/angular-underscore-module.js',
+      'scripts/controllers/home.js',
+      'scripts/controllers/alt.js',
+      'scripts/directives/color_parser.js'
     ], function() {
       // when all is done, execute bootstrap angular application
       angular.bootstrap(document, ['colortasticApp']);
     });
   </script>
   <title>Colortastic!</title>
-  <link rel="stylesheet" href="app.css">
+  <link rel="stylesheet" href="styles/app.css">
 </head>
 <body ng-cloak>
     <div class="container">
@@ -67,8 +67,7 @@
                     </h1>
                     <div id="solution-links" class="text-center">
                         <a ui-sref="home">First Solution</a> |
-                        <a ui-sref="alt">Alternate Solution #1</a> |
-                        <a ui-sref="alt2">Alternate Solution #2</a>
+                        <a ui-sref="alt">Alternate Solution</a>
                     </div>
                 </div>
             </div>

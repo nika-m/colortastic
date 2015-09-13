@@ -16,6 +16,11 @@
 
 .alt-subheader {
   padding-bottom: 5px;
+  color: #262626;
+}
+
+p.help-block {
+  color: #262626;
 }
 
 .color-header {
@@ -26,11 +31,21 @@
 }
 
 .output-display {
-  color:black;
+  color: black;
 }
 
 .color-display {
   padding-bottom: 20px;
+}
+
+.cn {
+  background-image: url('../images/cn.jpg');
+  opacity: 0.8;
+}
+
+.kitteh {
+  background-image: url('../images/kitteh.jpg');
+  opacity: 0.8;
 }
 
 span.app-title:nth-child(1) {

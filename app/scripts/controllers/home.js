@@ -1,6 +1,6 @@
 'use strict';
 
-angular.module('colortasticApp.home').controller('HomeController', function($scope) {
+angular.module('home', []).controller('HomeController', function($scope) {
   $scope.colorInput = '';
 
   $scope.changeStyles = function(colorInput){
